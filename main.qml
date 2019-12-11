@@ -14,8 +14,8 @@ ApplicationWindow {
         text: "Set Width"
         height: 50
         width: height * phi
-        onClicked: Qt.binding(function() {
-            return width = height * phi})
+        onClicked: width = Qt.binding(function() {
+            return height * phi})
     }
 
     Button {
