@@ -11,6 +11,6 @@ ApplicationWindow {
     Button {
         id: btn1Id
         text: "Button 1"
-        onClicked: MyUtils1.sayHello1("Button 1 calling.")
+        onClicked: MyUtils1.sayHello3("Button 1 calling.")
     }
 }
